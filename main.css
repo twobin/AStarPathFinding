@@ -1,0 +1,88 @@
+/*
+* Algorithm of A * pathfinding
+* Date: 2013-11-14
+* (copyright) 2012-2013 twobin, https://github.com/twobin
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,button,textarea,p,blockquote,th,td{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+	font-size:12px;
+	background-color: #e8e8e8;
+	color:#333;
+}
+
+a{
+	outline:none;
+	-moz-outline:none;
+	text-decoration:none;
+}
+.clearfix{
+	zoom:1;
+	_height:1px;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.head{
+	height:50px;
+	line-height:50px;
+	padding-left:200px;
+	border-bottom:1px solid #eee;
+	box-shadow: 1px 1px 5px #ccc;
+    background:#fff;
+}
+.head h1{
+	float:left;
+	width:200px;
+	height: 51px;
+	font-weight:bold;
+	font-size:24px;
+	background-color: rgb(31, 123, 155);
+	text-align: center;
+}
+.head h1 a{
+	color: #fff;
+}
+#blog{
+	font-weight:normal;
+	font-size:16px;
+	color: #fff;
+}
+#subtitle{
+	display:block;
+	float:right;
+	font-size:16px;
+	color:#999;
+	line-height:16px;
+	margin:20px 200px 0 0;
+}
+
+.wrap{
+	width:1100px;
+	margin:50px auto;
+}
+.play_wrap{
+	padding-left:220px;
+}
+#box{
+	float:left;
+	width:630px;
+	height:630px;
+	margin:50 auto;
+	background-color: #fefefe;
+	border-radius: 4px;
+	box-shadow: 0px 0px 8px #09F;
+	border: 1px solid #e8e8e8;
+}
+.block { border:1px solid #eaeaea; width:30px; background:#FFF; }
+.start, .start.path { background-color:#007de7; }
+.end, .end.path { background-color:#333; }
+.fence { background-color:#d1d1d1; }
+.path { background-color:#57e700; -webkit-transition:.5s all ease; }
